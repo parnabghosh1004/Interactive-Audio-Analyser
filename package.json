@@ -1,0 +1,16 @@
+{
+  "name": "sound-analyser",
+  "version": "1.0.0",
+  "description": "this is the best sound analyser made ever",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
