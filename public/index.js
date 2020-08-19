@@ -93,6 +93,8 @@ function toggleAudio() {
 
 function endAudio(){
     toggleBtn.html('Play');
+    amp = new p5.Amplitude();
+    fft = new p5.FFT(0.7, 512);
 }
 
 function setAudioProperty() {
